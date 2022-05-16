@@ -1,0 +1,31 @@
+// Загальні змінні
+@import "./utils/variables";
+@import "./utils/mixin";
+
+// Загальні властивості
+@import "./base/reset";
+@import "./base/visually-hidden";
+
+// Загальні компоненти
+@import "./components/logo";
+@import "./components/container";
+@import "./components/section";
+@import './components/after-header';
+@import './components/position-footer';
+
+// Макети студії та портфоліо
+@import "./layout/header";
+@import "./layout/hero";
+@import "./layout/features";
+@import "./layout/work";
+@import "./layout/team";
+@import "./layout/company";
+@import "./layout/footer";
+@import "./layout/modal";
+@import "./layout/portfolio-filter";
+@import "./layout/portfolio-projects";
+
+
+
+
+

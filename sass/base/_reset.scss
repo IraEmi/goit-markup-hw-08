@@ -1,0 +1,29 @@
+body {
+    color: var(--primary-text-color);
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
+}
+
+p,
+h1,
+h2,
+h3,
+ul {
+    margin: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+
+}
+
+/*забираю крапки з ненумерованого стиску  */
+.list {
+    list-style: none;
+}
+
+.decoration {
+    text-decoration: none;
+}
