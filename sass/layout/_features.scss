@@ -1,12 +1,36 @@
 .features-list {
-    display: flex;
-    flex-wrap: wrap;
-    margin-right: -30px;
+    // display: flex;
+    // flex-wrap: wrap;
+    // margin-right: -30px;
+
+    @media screen and (min-width: 768px) {
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: -30px;
+
+    }
 }
 
 .features-list__item {
-    flex-basis: calc((100% - 120px) / 4);
-    margin-right: 30px;
+    // flex-basis: calc((100% - 120px) / 4);
+    // margin-right: 30px;
+
+    @media screen and (min-width: 480px) {
+        margin-bottom: 30px;
+    }
+
+    @media screen and (min-width: 768px) {
+        flex-basis: calc((100% - 60px) / 2);
+        margin-right: 30px;
+        // margin-bottom: 30px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        flex-basis: calc((100% - 120px) / 4);
+        // margin-right: 30px;
+    }
+
+    
 }
 
 .featuers-list__link {
@@ -29,6 +53,12 @@
     color: var(--title-text-color);
     @include text-parameters(700, 14px, 1.14, 0.03em);
     text-transform: uppercase;
+    // при моб верс
+    text-align: center;
+
+    @media screen and (min-width: 768px) {
+        text-align: left;
+    }
 }
 
 .features-list__text {

@@ -2,6 +2,24 @@
     padding-top: 60px;
     padding-bottom: 60px;
     background-color: var(--two-background-color);
+    // width: 100%;
+}
+
+.footer-content {
+// при моб версії
+    text-align: center;
+    margin-bottom: 60px;
+
+
+    @media screen and (min-width: 768px) {
+        margin-left: 76px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        margin-left: 0px;
+        text-align: left;
+        margin-right: 70px;
+    }
 }
 
 .footer__logo {
@@ -52,7 +70,20 @@
 
 
 .join {
-    margin-left: 70px;
+    // margin-left: 70px;
+
+    // при моб верс
+    margin-bottom: 60px;
+
+    @media screen and (min-width: 768px){
+        margin-right: 89px;
+    }
+
+    @media screen and (min-width: 768px) {
+        margin-right: 93px;
+    }
+
+    
 }
 
 .join__title {
@@ -61,10 +92,25 @@
     text-transform: uppercase;
     color: var(--one-background-color);
 
+    // при моб версії
+    text-align: center;
+
+
+    @media screen and (min-width: 1200px) {
+        text-align: left;
+    }
+
 }
 
 .join-list {
     display: flex;
+
+    // при моб верс
+    justify-content: center;
+
+    // @media screen and (min-width: 480px) {
+    //     justify-content: center;
+    // }
 
 }
 
@@ -96,7 +142,17 @@
 }
 
 .mailing {
-    margin-left: 93px;
+    // margin-left: 93px;
+
+    @media screen and (min-width: 768px) {
+         margin-left: 166px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        margin-left: 0px;
+    }
+
+
 }
 
 .mailing input::placeholder {
@@ -111,14 +167,28 @@
     @include text-parameters(700, 14px, 1.14, 0.03em);
     text-transform: uppercase;
     color: var(--one-background-color);
+
+    // при моб версії
+    text-align: center;
+
+    @media screen and (min-width: 1200px) {
+        text-align: left;
+    }
 }
 
 .mailing-content {
-    display: flex;
+    // display: flex;
+
+    // при моб версії
+    text-align: center;
+
+    // @media screen and (min-width: 480px){
+    //     text-align: center;
+    // }
 }
 
 .mailing-content__mail {
-    width: 358px;
+    // width: 358px;
     height: 50px;
     margin-right: 12px;
     padding: 15px 16px;
@@ -127,6 +197,16 @@
     border-radius: 4px;
     background-color: #2F303A;
     color: var(--tree-background-color);
+
+    // при моб версії
+    width: 100%;
+    margin-bottom: 20px;
+
+    @media screen and (min-width: 1200px){
+        width: 358px;
+    }
+
+
 
 }
 
