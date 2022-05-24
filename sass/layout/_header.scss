@@ -1,15 +1,47 @@
 .header {
-    // border-bottom: 1px solid #ECECEC;
-    // background-color: var(--one-background-color);
+    border-bottom: 1px solid #ECECEC;
+    background-color: var(--one-background-color);
 
 }
  
-.mob-open-btn {
-    display: inline-flex;
-    margin-left: auto;
-    padding: 0;
-    border: none;
-    background-color: transparent;
+.menu-open-btn {
+        position: absolute;
+        top: 15px;
+        right: 10px;
+        width: 40px;
+        height: 40px;
+        justify-content: center;
+        align-items: center;
+        border: transparent;
+        background-color: var(--one-background-color);
+        cursor: pointer;
+        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
+        &:hover,
+        &:focus {
+            fill: var(--accent-color);
+        }
+}
+
+.menu-close-btn {
+    display: flex;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    width: 40px;
+    height: 40px;
+    // margin-bottom: 8.33px;
+    justify-content: center;
+    align-items: center;
+    border: transparent;
+    background-color: var(--one-background-color);
+    cursor: pointer;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        fill: var(--accent-color);
+    }
 }
 
 // .mob-button .icon-vector {
@@ -33,9 +65,9 @@
     display: flex;
     // align-items: center;
 
-    @media screen and (min-width: 480px) {
-        padding-top: 16px;
-    }
+    // @media screen and (min-width: 480px) {
+    //     padding-top: 16px;
+    // }
 }
 
 .nav-list {
@@ -150,27 +182,6 @@
     justify-content: space-between;
     padding-left: 40px;
 
-}
-
-.mob-close-btn {
-    display: flex;
-    position: absolute;
-    top: 10px;
-    right: 15px;
-    width: 40px;
-    height: 40px;
-    margin-bottom: 8.33px;
-    justify-content: center;
-    align-items: center;
-    border: transparent;
-    background-color: var(--one-background-color);
-    cursor: pointer;
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    
-        &:hover,
-        &:focus {
-            fill: var(--accent-color);
-        }
 }
 
 

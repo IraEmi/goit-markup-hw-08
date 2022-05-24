@@ -24,7 +24,7 @@
 
     // при моб верс
     padding: 118px 0px;
-    max-width: 100%;
+    width: 100%;
 
     @media screen and (min-width: 767px) {
         background-image: linear-gradient(rgba(47, 48, 58, 0.4),
@@ -40,7 +40,7 @@
     }
 
     @media screen and (min-width: 1200px){
-        // max-width: 1200px;
+        max-width: 1600px;
         height: 600px;
         padding: 200px 0px;
         background-image: linear-gradient(rgba(47, 48, 58, 0.4),
@@ -98,4 +98,5 @@
     cursor: pointer;
     @include text-parameters(700, 16px, 1.88, 0.06em);
     font-family: inherit;
+    // margin-bottom: 200px;
 }
