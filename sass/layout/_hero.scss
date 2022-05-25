@@ -62,7 +62,6 @@
     margin: auto;
     // width: 100%;
 
-    // при моб верс
     @media screen and (min-width: 480px) {
      width: 360px;
     }
@@ -98,5 +97,4 @@
     cursor: pointer;
     @include text-parameters(700, 16px, 1.88, 0.06em);
     font-family: inherit;
-    // margin-bottom: 200px;
 }

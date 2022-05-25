@@ -80,6 +80,8 @@ img {
 @media screen and (min-width: 1200px) {
   .logo {
     margin-right: 93px;
+    padding-top: 0;
+    padding-bottom: 0;
   }
 }
 
@@ -608,7 +610,7 @@ img {
   padding-top: 0;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1199.99px) {
   .work {
     display: none;
   }
