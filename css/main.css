@@ -1479,7 +1479,7 @@ img {
 
 @media screen and (min-width: 480px) {
   .description {
-    padding: 77px 24px;
+    padding: 100px 24px;
     font-size: 18px;
   }
 }
@@ -1488,6 +1488,12 @@ img {
   .description {
     padding: 49px 24px 77px 24px;
     font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .description {
+    padding: 63px 24px;
   }
 }
 
