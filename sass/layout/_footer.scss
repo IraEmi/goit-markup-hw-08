@@ -3,6 +3,10 @@
     padding-bottom: 60px;
     background-color: var(--two-background-color);
     // width: 100%;
+
+    @media screen and (min-width: 1200px){
+        padding-bottom: 0px;
+    }
 }
 
 .footer-content {
