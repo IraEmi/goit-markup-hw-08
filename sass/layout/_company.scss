@@ -19,14 +19,11 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        margin-right: -30px;
+        // margin-right: -30px;
 
-    // @media screen and (min-width: 768px) {
-    //     display: flex;
-    //     flex-wrap: wrap;
-    //     justify-content: center;
-    //     margin-right: -30px;
-    // }
+    @media screen and (min-width: 480px) {
+        margin-right: -30px;
+    }
 }
 
 .company-list__item {
@@ -38,8 +35,13 @@
 
     // при моб версії
         margin-bottom: 30px;
+
+    @media screen and (min-width: 480px){
         flex-basis: calc((100% - 60px) / 2);
         margin-right: 30px;
+    }    
+    
+
     
     @media screen and (min-width: 767px) {
             flex-basis: calc((100% - 120px) / 3);

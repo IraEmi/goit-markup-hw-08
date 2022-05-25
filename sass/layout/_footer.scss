@@ -117,6 +117,10 @@
 .join-list__item {
     display: block;
     margin-right: 10px;
+
+    &:last-child{
+        margin-right: 0;
+    }
 }
 
 .join-list__link {
